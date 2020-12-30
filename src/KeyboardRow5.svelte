@@ -6,95 +6,52 @@
   import KeyText from './KeyText.svelte';
 </script>
 
-<KeyboardRow cssClass={''}>
-  <KeyboardRowInner cssClass={''}>
-    <KeyOutline location={'r5-1'}>
-      <Key cssClass={''} animateIndex={}>
-        <KeyText text={''}></KeyText>
+<KeyboardRow>
+  <KeyboardRowInner>
+    <KeyOutline>
+      <Key cssClass={'key--fn'}>
+        <KeyText text={'fn'}></KeyText>
       </Key>
     </KeyOutline>
 
-    <KeyOutline location={'r5-2'}>
-      <Key cssClass={''} animateIndex={}>
-        <KeyText text={''}></KeyText>
-        <KeyText text={''}></KeyText>
+    <KeyOutline>
+      <Key cssClass={'key--control'}>
+        <KeyText text={'control'}></KeyText>
       </Key>
     </KeyOutline>
 
-    <KeyOutline location={'r5-3'}>
-      <Key cssClass={''} animateIndex={}>
-        <KeyText text={''}></KeyText>
-        <KeyText text={''}></KeyText>
+    <KeyOutline>
+      <Key cssClass={'key--option key--option--left'}>
+        <KeyText text={'alt'}></KeyText>
+        <KeyText text={'option'}></KeyText>
       </Key>
     </KeyOutline>
 
-    <KeyOutline location={'r5-4'}>
-      <Key cssClass={''} animateIndex={}>
-        <KeyText text={''}></KeyText>
-        <KeyText text={''}></KeyText>
+    <KeyOutline>
+      <Key cssClass={'key--cmd key--cmd--left'}>
+        <KeyText text={'⌘'}></KeyText>
+        <KeyText text={'command'}></KeyText>
       </Key>
     </KeyOutline>
 
-    <KeyOutline location={'r5-5'}>
-      <Key cssClass={''} animateIndex={}>
-        <KeyText text={''}></KeyText>
-        <KeyText text={''}></KeyText>
+    <KeyOutline>
+      <Key cssClass={'key--space'}></Key>
+    </KeyOutline>
+
+    <KeyOutline>
+      <Key cssClass={'key--cmd key--cmd--right'}>
+      <KeyText text={'⌘'}></KeyText>
+      <KeyText text={'command'}></KeyText>
       </Key>
     </KeyOutline>
 
-    <KeyOutline location={'r5-6'}>
-      <Key cssClass={''} animateIndex={}>
-        <KeyText text={''}></KeyText>
-        <KeyText text={''}></KeyText>
+    <KeyOutline>
+      <Key cssClass={'key--option key--option--right'}>
+        <KeyText text={'alt'}></KeyText>
+        <KeyText text={'option'}></KeyText>
       </Key>
     </KeyOutline>
 
-    <KeyOutline location={'r5-7'}>
-      <Key cssClass={''} animateIndex={}>
-        <KeyText text={''}></KeyText>
-        <KeyText text={''}></KeyText>
-      </Key>
-    </KeyOutline>
-
-    <KeyOutline location={'r5-8'}>
-      <Key cssClass={''} animateIndex={}>
-        <KeyText text={''}></KeyText>
-        <KeyText text={''}></KeyText>
-      </Key>
-    </KeyOutline>
-
-    <KeyOutline location={'r5-9'}>
-      <Key cssClass={''} animateIndex={}>
-        <KeyText text={''}></KeyText>
-        <KeyText text={''}></KeyText>
-      </Key>
-    </KeyOutline>
-
-    <KeyOutline location={'r5-10'}>
-      <Key cssClass={''} animateIndex={}>
-        <KeyText text={''}></KeyText>
-        <KeyText text={''}></KeyText>
-      </Key>
-    </KeyOutline>
-
-    <KeyOutline location={'r5-11'}>
-      <Key cssClass={''} animateIndex={}>
-        <KeyText text={''}></KeyText>
-        <KeyText text={''}></KeyText>
-      </Key>
-    </KeyOutline>
-
-    <KeyOutline location={'r5-12'}>
-      <Key cssClass={''} animateIndex={}>
-        <KeyText text={''}></KeyText>
-        <KeyText text={''}></KeyText>
-      </Key>
-    </KeyOutline>
-
-    <KeyOutline location={'r5-13'}>
-      <Key cssClass={''} animateIndex={}>
-        <KeyText text={''}></KeyText>
-      </Key>
-    </KeyOutline>
+    <!-- add arrow keys here -->
   </KeyboardRowInner>
 </KeyboardRow>
