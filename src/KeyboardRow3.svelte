@@ -9,14 +9,14 @@
 <KeyboardRow cssClass={''}>
   <KeyboardRowInner cssClass={''}>
     <KeyOutline location={'r3-1'}>
-      <Key cssClass={'key--capslock'} animateIndex={}>
+      <Key cssClass={'key--capslock'}>
         <div class="dot"></div>
         <KeyText text={'caps lock'}></KeyText>
       </Key>
     </KeyOutline>
 
     <KeyOutline location={'r3-2'}>
-      <Key cssClass={''} animateIndex={}>
+      <Key cssClass={''}>
         <KeyText text={'a'}></KeyText>
       </Key>
     </KeyOutline>
