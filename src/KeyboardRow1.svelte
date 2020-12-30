@@ -6,100 +6,100 @@
   import KeyText from './KeyText.svelte';
 </script>
 
-<KeyboardRow cssClass={''}>
-  <KeyboardRowInner cssClass={''}>
-    <KeyOutline location={''}>
-      <Key cssClass={''}>
+<KeyboardRow>
+  <KeyboardRowInner>
+    <KeyOutline>
+      <Key>
         <KeyText text={'~'}></KeyText>
         <KeyText text={'`'}></KeyText>
       </Key>
     </KeyOutline>
 
-    <KeyOutline location={''}>
-      <Key cssClass={''}>
+    <KeyOutline>
+      <Key>
         <KeyText text={'!'}></KeyText>
         <KeyText text={'1'}></KeyText>
       </Key>
     </KeyOutline>
 
-    <KeyOutline location={''}>
-      <Key cssClass={''}>
+    <KeyOutline>
+      <Key>
         <KeyText text={'@'}></KeyText>
         <KeyText text={'2'}></KeyText>
       </Key>
     </KeyOutline>
 
-    <KeyOutline location={''}>
-      <Key cssClass={''}>
+    <KeyOutline>
+      <Key>
         <KeyText text={'#'}></KeyText>
         <KeyText text={'3'}></KeyText>
       </Key>
     </KeyOutline>
 
-    <KeyOutline location={''}>
-      <Key cssClass={''}>
+    <KeyOutline>
+      <Key>
         <KeyText text={'$'}></KeyText>
         <KeyText text={'4'}></KeyText>
       </Key>
     </KeyOutline>
 
-    <KeyOutline location={''}>
-      <Key cssClass={''}>
+    <KeyOutline>
+      <Key>
         <KeyText text={'%'}></KeyText>
         <KeyText text={'5'}></KeyText>
       </Key>
     </KeyOutline>
 
-    <KeyOutline location={''}>
-      <Key cssClass={''}>
+    <KeyOutline>
+      <Key>
         <KeyText text={'^'}></KeyText>
         <KeyText text={'6'}></KeyText>
       </Key>
     </KeyOutline>
 
-    <KeyOutline location={''}>
-      <Key cssClass={''}>
+    <KeyOutline>
+      <Key>
         <KeyText text={'&'}></KeyText>
         <KeyText text={'7'}></KeyText>
       </Key>
     </KeyOutline>
 
-    <KeyOutline location={''}>
-      <Key cssClass={''}>
+    <KeyOutline>
+      <Key>
         <KeyText text={'*'}></KeyText>
         <KeyText text={'8'}></KeyText>
       </Key>
     </KeyOutline>
 
-    <KeyOutline location={''}>
-      <Key cssClass={''}>
+    <KeyOutline>
+      <Key>
         <KeyText text={'('}></KeyText>
         <KeyText text={'9'}></KeyText>
       </Key>
     </KeyOutline>
 
-    <KeyOutline location={''}>
-      <Key cssClass={''}>
+    <KeyOutline>
+      <Key>
         <KeyText text={')'}></KeyText>
         <KeyText text={'0'}></KeyText>
       </Key>
     </KeyOutline>
 
     <KeyOutline location={'r1-12'}>
-      <Key cssClass={''} animateIndex={15}>
+      <Key animateIndex={15}>
         <KeyText text={'_'}></KeyText>
         <KeyText text={'-'}></KeyText>
       </Key>
     </KeyOutline>
 
     <KeyOutline location={'r1-13'}>
-      <Key cssClass={''} animateIndex={16}>
+      <Key animateIndex={16}>
         <KeyText text={'+'}></KeyText>
         <KeyText text={'='}></KeyText>
       </Key>
     </KeyOutline>
 
-    <KeyOutline location={''}>
+    <KeyOutline>
       <Key cssClass={'key--delete'}>
         <KeyText text={'delete'}></KeyText>
       </Key>
