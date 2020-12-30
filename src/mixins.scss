@@ -1,0 +1,11 @@
+@mixin action-key {
+  font-size: var(--small-font-size);
+  text-transform: lowercase;
+  flex-grow: 1;
+
+  .key-text {
+    &:not(:last-child) {
+      font-size: var(--mini-font-size);
+    }
+  }
+}

@@ -1,0 +1,30 @@
+@import url(https://fonts.googleapis.com/css2?family=Lato&display=swap);
+:root {
+  --gap-size: 12px;
+
+  --key-outline-size: 64px;
+  --key-outline-border-size: 1px;
+  --key-size-shift: 39.25mm;
+  --key-size-tab: 26mm;
+  --key-size-enter: 30mm;
+  --key-size-util-width: 16.25mm;
+  --key-size-util-height: 7.5mm;
+  --key-size-space: calc(var(--key-outline-size) * 5 + var(--gap-size) * 4);
+
+  --key-size: calc(var(--key-outline-size) - 2 * var(--key-outline-border-size));
+
+  --small-font-size: 14px;
+  --mini-font-size: 10px;
+
+  --color-black: #131517;
+}
+
+html, body {
+  font-family: 'Lato', sans-serif;
+  font-size: 14px;
+}
+
+* {
+  box-sizing: border-box;
+  line-height: 1;
+}
