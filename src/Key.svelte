@@ -226,6 +226,14 @@
     transition-duration: 0;
   }
 }
+
+.key-text {
+  line-height: 1.2;
+
+  &:not(:first-child) {
+    margin-top: 5px;
+  }
+}
 </style>
 
 <div class={`key-outline ${outlineCssClass}`}>

@@ -34,6 +34,6 @@
 
     <Key cssClass={'key--util key--f'} outlineCssClass={'key-outline--util'} keyText={['f12']} />
 
-    <Key cssClass={'key--util key--f key--power'} outlineCssClass={'key-outline--util'} keyText={['&#x23FB;']} />
+    <Key cssClass={'key--util key--f key--power'} outlineCssClass={'key-outline--util'} keyText={['⏻']} />
   </KeyboardRowInner>
 </KeyboardRow>

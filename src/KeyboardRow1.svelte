@@ -30,9 +30,9 @@
 
     <Key keyText={[')', '0']} />
 
-    <Key outlineLocation={'r1-12'} animateIndex={15} keyText={'_', '-'} />
+    <Key outlineLocation={'r1-12'} animateIndex={15} keyText={['_', '-']} />
 
-    <Key outlineLocation={'r1-13'} animateIndex={16} keyText={'+', '='} />
+    <Key outlineLocation={'r1-13'} animateIndex={16} keyText={['+', '=']} />
 
     <Key cssClass={'key--delete'} outlineCssClass={'key-outline--delete'} keyText={['delete']} />
   </KeyboardRowInner>
