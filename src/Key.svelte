@@ -2,6 +2,7 @@
 	export let cssClass = '';
 	export let outlineCssClass = '';
 	export let animateIndex = '';
+	export let keyText = [];
 </script>
 
 <style type="text/scss">
@@ -229,6 +230,9 @@
 
 <div class={`key-outline ${outlineCssClass}`}>
 	<div class={`key ${cssClass}`} data-animate={animateIndex}>
+		{#each keyText as t}
+			<div class="key-text">{t}</div>
+		{/each}
 		<slot></slot>
 	</div>
 </div>

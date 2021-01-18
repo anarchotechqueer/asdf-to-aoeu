@@ -8,73 +8,32 @@
 
 <KeyboardRow>
   <KeyboardRowInner>
-    <Key>
-      <KeyText text={'~'}></KeyText>
-      <KeyText text={'`'}></KeyText>
-    </Key>
+    <Key keyText={['~', '`']} />
 
-    <Key>
-      <KeyText text={'!'}></KeyText>
-      <KeyText text={'1'}></KeyText>
-    </Key>
+    <Key keyText={['!', '1']} />
 
-    <Key>
-      <KeyText text={'@'}></KeyText>
-      <KeyText text={'2'}></KeyText>
-    </Key>
+    <Key keyText={['@', '2']} />
 
-    <Key>
-      <KeyText text={'#'}></KeyText>
-      <KeyText text={'3'}></KeyText>
-    </Key>
+    <Key keyText={['#', '3']} />
 
-    <Key>
-      <KeyText text={'$'}></KeyText>
-      <KeyText text={'4'}></KeyText>
-    </Key>
+    <Key keyText={['$', '4']} />
 
-    <Key>
-      <KeyText text={'%'}></KeyText>
-      <KeyText text={'5'}></KeyText>
-    </Key>
+    <Key keyText={['%', '5']} />
 
-    <Key>
-      <KeyText text={'^'}></KeyText>
-      <KeyText text={'6'}></KeyText>
-    </Key>
+    <Key keyText={['^', '6']} />
 
-    <Key>
-      <KeyText text={'&'}></KeyText>
-      <KeyText text={'7'}></KeyText>
-    </Key>
+    <Key keyText={['&', '7']} />
 
-    <Key>
-      <KeyText text={'*'}></KeyText>
-      <KeyText text={'8'}></KeyText>
-    </Key>
+    <Key keyText={['*', '8']} />
 
-    <Key>
-      <KeyText text={'('}></KeyText>
-      <KeyText text={'9'}></KeyText>
-    </Key>
+    <Key keyText={['(', '9']} />
 
-    <Key>
-      <KeyText text={')'}></KeyText>
-      <KeyText text={'0'}></KeyText>
-    </Key>
+    <Key keyText={[')', '0']} />
 
-    <Key outlineLocation={'r1-12'} animateIndex={15}>
-      <KeyText text={'_'}></KeyText>
-      <KeyText text={'-'}></KeyText>
-    </Key>
+    <Key outlineLocation={'r1-12'} animateIndex={15} keyText={'_', '-'} />
 
-    <Key outlineLocation={'r1-13'} animateIndex={16}>
-      <KeyText text={'+'}></KeyText>
-      <KeyText text={'='}></KeyText>
-    </Key>
+    <Key outlineLocation={'r1-13'} animateIndex={16} keyText={'+', '='} />
 
-    <Key cssClass={'key--delete'} outlineCssClass={'key-outline--delete'}>
-      <KeyText text={'delete'}></KeyText>
-    </Key>
+    <Key cssClass={'key--delete'} outlineCssClass={'key-outline--delete'} keyText={['delete']} />
   </KeyboardRowInner>
 </KeyboardRow>
