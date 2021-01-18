@@ -8,35 +8,19 @@
 
 <KeyboardRow>
   <KeyboardRowInner>
-      <Key cssClass={'key--fn'}>
-        <KeyText text={'fn'}></KeyText>
-      </Key>
+    <Key outlineCssClass={'key-outline--fn'} keyText={['fn']} />
 
-      <Key cssClass={'key--control'}>
-        <KeyText text={'control'}></KeyText>
-      </Key>
+    <Key outlineCssClass={'key-outline--control'} keyText={['control']} />
 
-      <Key cssClass={'key--option key--option--left'}>
-        <KeyText text={'alt'}></KeyText>
-        <KeyText text={'option'}></KeyText>
-      </Key>
+    <Key outlineCssClass={'key-outline--option key-outline--option--left'} keyText={['alt', 'option']} />
 
-      <Key cssClass={'key--cmd key--cmd--left'}>
-        <KeyText text={'⌘'}></KeyText>
-        <KeyText text={'command'}></KeyText>
-      </Key>
+    <Key outlineCssClass={'key-outline--cmd key-outline--cmd--left'} keyText={['⌘', 'command']} />
 
-      <Key cssClass={'key--space'}></Key>
+    <Key outlineCssClass={'key-outline--space'}/>
 
-      <Key cssClass={'key--cmd key--cmd--right'}>
-      <KeyText text={'⌘'}></KeyText>
-      <KeyText text={'command'}></KeyText>
-      </Key>
+    <Key outlineCssClass={'key-outline--cmd key-outline--cmd--right'} keyText={['⌘', 'command']} />
 
-      <Key cssClass={'key--option key--option--right'}>
-        <KeyText text={'alt'}></KeyText>
-        <KeyText text={'option'}></KeyText>
-      </Key>
+    <Key outlineCssClass={'key-outline--option key-outline--option--right'} keyText={['alt', 'option']} />
 
     <!-- add arrow keys here -->
   </KeyboardRowInner>

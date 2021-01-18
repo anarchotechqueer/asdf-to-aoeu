@@ -30,95 +30,133 @@
 
 	 &--delete {
      @include action-key;
-     flex-grow: 1;
-     justify-content: flex-end;
-     align-items: flex-end;
+
+     .key {
+			 justify-content: flex-end;
+	     align-items: flex-end;
+		 }
    }
 
 	 &--tab {
      @include action-key;
-     justify-content: flex-end;
-     align-items: flex-start;
-     flex-grow: 1;
+
+		 .key {
+			 justify-content: flex-end;
+	     align-items: flex-start;
+		 }
    }
 
    &--capslock {
      @include action-key;
-     justify-content: space-between;
-     align-items: flex-start;
 
-     .dot {
-       width: 4px;
-       height: 4px;
-       background-color: white;
-       border-radius: 50%;
-       flex-shrink: 0;
-     }
+		 .key {
+			 justify-content: space-between;
+	     align-items: flex-start;
+		 }
    }
 
    &--enter {
      @include action-key;
-     justify-content: space-between;
-     align-items: flex-end;
+
+		 .key {
+			 justify-content: space-between;
+	     align-items: flex-end;
+		 }
    }
 
    &--shift {
      @include action-key;
-     justify-content: flex-end;
+
+		 .key {
+			 justify-content: flex-end;
+		 }
 
      &--left {
-       align-items: flex-start;
+       .key {
+				 align-items: flex-start;
+			 }
      }
 
      &--right {
-       align-items: flex-end;
+       .key {
+				 align-items: flex-end;
+			 }
      }
    }
 
-	 &.key--fn {
+	 &--space {
+     width: var(--key-size-space);
+     flex-shrink: 0;
+
+		 .key {
+			 width: 100%;
+		 }
+   }
+
+	 &--fn {
 		 @include action-key;
-		 justify-content: flex-end;
-		 align-items: flex-start;
 		 width: 15.4mm;
+
+		 .key {
+			 justify-content: flex-end;
+			 align-items: flex-start;
+		 }
 	 }
 
 	 &--control {
 		 @include action-key;
-		 justify-content: flex-end;
-		 align-items: flex-start;
 		 width: 16.4mm;
+
+		 .key {
+			 justify-content: flex-end;
+			 align-items: flex-start;
+		 }
 	 }
 
 	 &--option {
 		 @include action-key;
-		 justify-content: space-between;
 		 width: 16.4mm;
 
+		 .key {
+			 justify-content: space-between;
+		 }
+
 		 &--left {
-			 align-items: flex-start;
+			 .key {
+				 align-items: flex-start;
+			 }
 		 }
 
 		 &--right {
-			 align-items: flex-end;
+			 .key {
+				 align-items: flex-end;
+			 }
 		 }
 	 }
 
 	 &--cmd {
 		 @include action-key;
-		 justify-content: space-between;
+
 		 width: 21mm;
 
+		 .key {
+			 justify-content: space-between;
+		 }
 		 .key-text {
 			 &:first-child {
 				 font-size: var(--small-font-size);
 			 }
 		 }
 		 &--left {
-			 align-items: flex-end;
+			 .key {
+				 align-items: flex-end;
+			 }
 		 }
 
 		 &--right {
-			 align-items: flex-start;
+			 .key {
+				 align-items: flex-start;
+			 }
 		 }
 	 }
  }
@@ -135,14 +173,8 @@
   width: var(--key-size);
   height: var(--key-size);
   border-radius: 1.7mm;
-  flex-shrink: 0;
-  flex-grow: 0;
   transition-duration: .25s;
   transition-property: transform, box-shadow;
-
-  &:not(:first-child) {
-    margin-left: var(--gap-size);
-  }
 
   &--util {
     font-size: var(--mini-font-size);
@@ -165,17 +197,9 @@
     font-size: var(--small-font-size);
   }
 
-
-
   &--util {
     height: var(--key-size-util-height);
     flex-grow: 1;
-  }
-
-
-  &--space {
-    width: var(--key-size-space);
-    flex-shrink: 0;
   }
 
   &--arrow {
@@ -234,13 +258,21 @@
     margin-top: 5px;
   }
 }
+
+.dot {
+	width: 4px;
+	height: 4px;
+	background-color: white;
+	border-radius: 50%;
+	flex-shrink: 0;
+}
 </style>
 
 <div class={`key-outline ${outlineCssClass}`}>
 	<div class={`key ${cssClass}`} data-animate={animateIndex}>
+		<slot></slot>
 		{#each keyText as t}
 			<div class="key-text">{t}</div>
 		{/each}
-		<slot></slot>
 	</div>
 </div>
