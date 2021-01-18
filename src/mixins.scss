@@ -3,6 +3,10 @@
   text-transform: lowercase;
   flex-grow: 1;
 
+  .key {
+    width: 100%;
+  }
+  
   .key-text {
     &:not(:last-child) {
       font-size: var(--mini-font-size);

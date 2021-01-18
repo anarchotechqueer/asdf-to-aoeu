@@ -1,10 +1,127 @@
 <script>
-	export let cssClass;
-	export let animateIndex;
+	export let cssClass = '';
+	export let outlineCssClass = '';
+	export let animateIndex = '';
 </script>
 
 <style type="text/scss">
  @import './mixins.scss';
+ .key-outline {
+   width: var(--key-outline-size);
+   height: var(--key-outline-size);
+   border-radius: 1.7mm;
+   border: var(--key-outline-border-size) solid var(--color-black);
+   flex-grow: 0;
+   flex-shrink: 0;
+
+   &:not(:first-child) {
+     margin-left: var(--gap-size);
+   }
+
+	 &--util {
+		 height: auto;
+		 flex-grow: 1;
+
+		 .key {
+			 width: 100%;
+		 }
+	 }
+
+	 &--delete {
+     @include action-key;
+     flex-grow: 1;
+     justify-content: flex-end;
+     align-items: flex-end;
+   }
+
+	 &--tab {
+     @include action-key;
+     justify-content: flex-end;
+     align-items: flex-start;
+     flex-grow: 1;
+   }
+
+   &--capslock {
+     @include action-key;
+     justify-content: space-between;
+     align-items: flex-start;
+
+     .dot {
+       width: 4px;
+       height: 4px;
+       background-color: white;
+       border-radius: 50%;
+       flex-shrink: 0;
+     }
+   }
+
+   &--enter {
+     @include action-key;
+     justify-content: space-between;
+     align-items: flex-end;
+   }
+
+   &--shift {
+     @include action-key;
+     justify-content: flex-end;
+
+     &--left {
+       align-items: flex-start;
+     }
+
+     &--right {
+       align-items: flex-end;
+     }
+   }
+
+	 &.key--fn {
+		 @include action-key;
+		 justify-content: flex-end;
+		 align-items: flex-start;
+		 width: 15.4mm;
+	 }
+
+	 &--control {
+		 @include action-key;
+		 justify-content: flex-end;
+		 align-items: flex-start;
+		 width: 16.4mm;
+	 }
+
+	 &--option {
+		 @include action-key;
+		 justify-content: space-between;
+		 width: 16.4mm;
+
+		 &--left {
+			 align-items: flex-start;
+		 }
+
+		 &--right {
+			 align-items: flex-end;
+		 }
+	 }
+
+	 &--cmd {
+		 @include action-key;
+		 justify-content: space-between;
+		 width: 21mm;
+
+		 .key-text {
+			 &:first-child {
+				 font-size: var(--small-font-size);
+			 }
+		 }
+		 &--left {
+			 align-items: flex-end;
+		 }
+
+		 &--right {
+			 align-items: flex-start;
+		 }
+	 }
+ }
+
 .key {
   text-transform: uppercase;
   color: white;
@@ -47,104 +164,13 @@
     font-size: var(--small-font-size);
   }
 
-  &--tab {
-    @include action-key;
-    justify-content: flex-end;
-    align-items: flex-start;
-    flex-grow: 1;
-  }
 
-  &--delete {
-    @include action-key;
-    flex-grow: 1;
-    justify-content: flex-end;
-    align-items: flex-end;
-  }
-
-  &--capslock {
-    @include action-key;
-    justify-content: space-between;
-    align-items: flex-start;
-
-    .dot {
-      width: 4px;
-      height: 4px;
-      background-color: white;
-      border-radius: 50%;
-      flex-shrink: 0;
-    }
-  }
-
-  &--enter {
-    @include action-key;
-    justify-content: space-between;
-    align-items: flex-end;
-  }
-
-  &--shift {
-    @include action-key;
-    justify-content: flex-end;
-
-    &--left {
-      align-items: flex-start;
-    }
-
-    &--right {
-      align-items: flex-end;
-    }
-  }
 
   &--util {
     height: var(--key-size-util-height);
     flex-grow: 1;
   }
 
-  &.key--fn {
-    @include action-key;
-    justify-content: flex-end;
-    align-items: flex-start;
-    width: 15.4mm;
-  }
-
-  &--control {
-    @include action-key;
-    justify-content: flex-end;
-    align-items: flex-start;
-    width: 16.4mm;
-  }
-
-  &--option {
-    @include action-key;
-    justify-content: space-between;
-    width: 16.4mm;
-
-    &--left {
-      align-items: flex-start;
-    }
-
-    &--right {
-      align-items: flex-end;
-    }
-  }
-
-  &--cmd {
-    @include action-key;
-    justify-content: space-between;
-    width: 21mm;
-
-    .key-text {
-      &:first-child {
-        font-size: var(--small-font-size);
-      }
-    }
-    &--left {
-      align-items: flex-end;
-    }
-
-    &--right {
-      align-items: flex-start;
-    }
-  }
 
   &--space {
     width: var(--key-size-space);
@@ -201,6 +227,8 @@
 }
 </style>
 
-<div class={`key ${cssClass}`} data-animate={animateIndex}>
-	<slot></slot>
+<div class={`key-outline ${outlineCssClass}`}>
+	<div class={`key ${cssClass}`} data-animate={animateIndex}>
+		<slot></slot>
+	</div>
 </div>

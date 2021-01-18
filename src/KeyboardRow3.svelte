@@ -8,80 +8,60 @@
 
 <KeyboardRow>
   <KeyboardRowInner>
-    <KeyOutline location={'r3-1'}>
-      <Key cssClass={'key--capslock'}>
-        <div class="dot"></div>
-        <KeyText text={'caps lock'}></KeyText>
-      </Key>
-    </KeyOutline>
+    <Key outlineLocation={'r3-1'} cssClass={'key--capslock'} outlineCssClass={'key-outline--capslock'}>
+      <div class="dot"></div>
+      <KeyText text={'caps lock'}></KeyText>
+    </Key>
 
-    <KeyOutline location={'r3-2'}>
-      <Key>
-        <KeyText text={'a'}></KeyText>
-      </Key>
-    </KeyOutline>
+    <Key outlineLocation={'r3-2'}>
+      <KeyText text={'a'}></KeyText>
+    </Key>
 
-    <KeyOutline location={'r3-3'}>
-      <Key animateIndex={10}>
-        <KeyText text={'s'}></KeyText>
-      </Key>
-    </KeyOutline>
+    <Key outlineLocation={'r3-3'} animateIndex={10}>
+      <KeyText text={'s'}></KeyText>
+    </Key>
 
-    <KeyOutline location={'r3-4'}>
-      <Key animateIndex={22}>
-        <KeyText text={'d'}></KeyText>
-      </Key>
-    </KeyOutline>
+    <Key outlineLocation={'r3-4'} animateIndex={22}>
+      <KeyText text={'d'}></KeyText>
+    </Key>
 
-    <KeyOutline location={'r3-5'}>
-      <Key animateIndex={29}>
-        <KeyText text={'f'}></KeyText>
-      </Key>
-    </KeyOutline>
+    <Key outlineLocation={'r3-5'} animateIndex={29}>
+      <KeyText text={'f'}></KeyText>
+    </Key>
 
-    <KeyOutline location={'r3-6'}>
-      <Key animateIndex={27}>
-        <KeyText text={'h'}></KeyText>
-      </Key>
-    </KeyOutline>
+    <Key outlineLocation={'r3-6'} animateIndex={27}>
+      <KeyText text={'g'}></KeyText>
+    </Key>
 
-    <KeyOutline location={'r3-7'}>
-      <Key animateIndex={23}>
-        <KeyText text={'j'}></KeyText>
-      </Key>
-    </KeyOutline>
+    <Key outlineLocation={'r3-7'} animateIndex={23}>
+      <KeyText text={'h'}></KeyText>
+    </Key>
 
-    <KeyOutline location={'r3-8'}>
-      <Key animateIndex={24}>
-        <KeyText text={'k'}></KeyText>
-      </Key>
-    </KeyOutline>
+    <Key outlineLocation={'r3-8'} animateIndex={24}>
+      <KeyText text={'j'}></KeyText>
+    </Key>
 
-    <KeyOutline location={'r3-9'}>
-      <Key animateIndex={32}>
-        <KeyText text={'l'}></KeyText>
-      </Key>
-    </KeyOutline>
+    <Key outlineLocation={'r3-9'} animateIndex={32}>
+      <KeyText text={'k'}></KeyText>
+    </Key>
 
-    <KeyOutline location={'r3-10'}>
-      <Key animateIndex={11}>
-        <KeyText text={':'}></KeyText>
-        <KeyText text={';'}></KeyText>
-      </Key>
-    </KeyOutline>
+    <Key outlineLocation={'r3-10'} animateIndex={6}>
+      <KeyText text={'l'}></KeyText>
+    </Key>
 
-    <KeyOutline location={'r3-11'}>
-      <Key animateIndex={2}>
-        <KeyText text={'"'}></KeyText>
-        <KeyText text={"'"}></KeyText>
-      </Key>
-    </KeyOutline>
+    <Key outlineLcation={'r3-11'} animateIndex={11}>
+      <KeyText text={':'}></KeyText>
+      <KeyText text={';'}></KeyText>
+    </Key>
 
-    <KeyOutline location={'r3-12'}>
-      <Key cssClass={'key--enter'}>
-        <KeyText text={'enter'}></KeyText>
-        <KeyText text={'return'}></KeyText>
-      </Key>
-    </KeyOutline>
+    <Key outlineLcation={'r3-11'} animateIndex={2}>
+      <KeyText text={'"'}></KeyText>
+      <KeyText text={"'"}></KeyText>
+    </Key>
+
+    <Key outlineLcation={'r3-12'} cssClass={'key--enter'} outlineCssClass={'key-outline--enter'}>
+      <KeyText text={'enter'}></KeyText>
+      <KeyText text={'return'}></KeyText>
+    </Key>
   </KeyboardRowInner>
 </KeyboardRow>

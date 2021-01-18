@@ -8,83 +8,63 @@
 
 <KeyboardRow>
   <KeyboardRowInner>
-    <KeyOutline location={'r2-1'}>
-      <Key cssClass={'key--tab'}>
-        <KeyText text={'tab'}></KeyText>
-      </Key>
-    </KeyOutline>
+    <Key outlineLocation={'r2-1'} cssClass={'key--tab'} outlineCssClass={`key-outline--tab`}>
+      <KeyText text={'tab'}></KeyText>
+    </Key>
 
-    <KeyOutline location={'r2-2'}>
-      <Key animateIndex={1}>
-        <KeyText text={'q'}></KeyText>
-      </Key>
-    </KeyOutline>
+    <Key outlineLocation={'r2-2'} animateIndex={1}>
+      <KeyText text={'q'}></KeyText>
+    </Key>
 
-    <KeyOutline location={'r2-3'}>
-      <Key animateIndex={18}>
-        <KeyText text={'w'}></KeyText>
-      </Key>
-    </KeyOutline>
+    <Key outlineLocation={'r2-3'} animateIndex={18}>
+      <KeyText text={'w'}></KeyText>
+    </Key>
 
-    <KeyOutline location={'r2-4'}>
-      <Key animateIndex={20}>
-        <KeyText text={'e'}></KeyText>
-      </Key>
-    </KeyOutline>
+    <Key outlineLocation={'r2-4'} animateIndex={20}>
+      <KeyText text={'e'}></KeyText>
+    </Key>
 
-    <KeyOutline location={'r2-5'}>
-      <Key animateIndex={8}>
-        <KeyText text={'r'}></KeyText>
-      </Key>
-    </KeyOutline>
+    <Key outlineLocation={'r2-5'} animateIndex={8}>
+      <KeyText text={'r'}></KeyText>
+    </Key>
 
-    <KeyOutline location={'r2-6'}>
-      <Key animateIndex={31}>
-        <KeyText text={'t'}></KeyText>
-      </Key>
-    </KeyOutline>
+    <Key outlineLocation={'r2-6'} animateIndex={31}>
+      <KeyText text={'t'}></KeyText>
+    </Key>
 
-    <KeyOutline location={'r2-7'}>
-      <Key animateIndex={30}>
-        <KeyText text={'y'}></KeyText>
-      </Key>
-    </KeyOutline>
+    <Key outlineLocation={'r2-7'} animateIndex={30}>
+      <KeyText text={'y'}></KeyText>
+    </Key>
 
-    <KeyOutline location={'r2-8'}>
-      <Key animateIndex={28}>
-        <KeyText text={'u'}></KeyText>
-      </Key>
-    </KeyOutline>
+    <Key outlineLocation={'r2-8'} animateIndex={28}>
+      <KeyText text={'u'}></KeyText>
+    </Key>
 
-    <KeyOutline location={'r2-9'}>
-      <Key animateIndex={26}>
-        <KeyText text={'i'}></KeyText>
-      </Key>
-    </KeyOutline>
+    <Key outlineLocation={'r2-9'} animateIndex={26}>
+      <KeyText text={'i'}></KeyText>
+    </Key>
 
-    <KeyOutline location={'r2-10'}>
-      <Key animateIndex={9}>
-        <KeyText text={'o'}></KeyText>
-      </Key>
-    </KeyOutline>
+    <Key outlineLocation={'r2-10'} animateIndex={9}>
+      <KeyText text={'o'}></KeyText>
+    </Key>
 
-    <KeyOutline location={'r2-11'}>
-      <Key animateIndex={7}>
-        <KeyText text={'p'}></KeyText>
-      </Key>
-    </KeyOutline>
+    <Key outlineLocation={'r2-11'} animateIndex={7}>
+      <KeyText text={'p'}></KeyText>
+    </Key>
 
-    <KeyOutline location={'r2-12'}>
-      <Key animateIndex={14}>
-        <KeyText text={'{'}></KeyText>
-        <KeyText text={'['}></KeyText>
-      </Key>
-    </KeyOutline>
+      <Key outlineLocation={'r2-12'} animateIndex={14}>
+      <KeyText text={'{'}></KeyText>
+      <KeyText text={'['}></KeyText>
+    </Key>
 
-    <KeyOutline location={'r2-13'}>
-      <Key cssClass={'}'} animateIndex={17}>
-        <KeyText text={']'}></KeyText>
-      </Key>
-    </KeyOutline>
+    <Key outlineLocation={'r2-13'} animateIndex={17}>
+      <KeyText text={'}'}></KeyText>
+      <KeyText text={']'}></KeyText>
+    </Key>
+
+    <Key outlineLocation={'r2-13'} animateIndex={17}>
+      <KeyText text={'|'}></KeyText>
+      <KeyText text={'\\'}></KeyText>
+    </Key>
   </KeyboardRowInner>
 </KeyboardRow>
