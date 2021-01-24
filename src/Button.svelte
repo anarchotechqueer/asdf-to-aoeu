@@ -2,13 +2,9 @@
 	export let text = 'start';
   export let clickEvent;
 
-  console.log(clickEvent);
-
   const buttonHandler = (e) => {
-    console.log(e);
     clickEvent();
     const el = e.target;
-    console.log(el);
     el.parentNode.removeChild(el);
   }
 </script>
