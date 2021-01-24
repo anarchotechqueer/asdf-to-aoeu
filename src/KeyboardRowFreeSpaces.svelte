@@ -6,7 +6,7 @@
 
 <KeyboardRow>
   <KeyboardRowInner cssClass={'keyboard-row__inner--spaced'}>
-    <Key location={'free-space-1'} />
-    <Key location={'free-space-2'} />
+    <Key outlineOnly={true} outlineLocation={'free-space-1'} />
+    <Key outlineOnly={true} outlineLocation={'free-space-2'} />
   </KeyboardRowInner>
 </KeyboardRow>

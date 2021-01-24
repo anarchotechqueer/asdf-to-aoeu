@@ -26,8 +26,8 @@
 
     <Key outlineLocation={'r4-9'} animateIndex={21} keyText={['>', '.']} />
 
-    <Key outlinelLcation={'r4-10'} animateIndex={13} keyText={['?', '/']} />
+    <Key outlineLocation={'r4-10'} animateIndex={13} keyText={['?', '/']} />
 
-    <Key outlinelLcation={'r4-11'} outlineCssClass={'key-outline--shift key-outline--shift--right'} keyText={['shift']} />
+    <Key outlineLocation={'r4-11'} outlineCssClass={'key-outline--shift key-outline--shift--right'} keyText={['shift']} />
   </KeyboardRowInner>
 </KeyboardRow>

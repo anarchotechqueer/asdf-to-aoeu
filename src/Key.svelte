@@ -3,6 +3,7 @@
 	export let outlineCssClass = '';
 	export let animateIndex = '';
 	export let keyText = [];
+	export let outlineOnly=false;
 </script>
 
 <style type="text/scss">
@@ -299,10 +300,12 @@
 </style>
 
 <div class={`key-outline ${outlineCssClass}`}>
-	<div class={`key ${cssClass}`} data-animate={animateIndex}>
-		<slot></slot>
-		{#each keyText as t}
-			<div class="key-text">{t}</div>
-		{/each}
-	</div>
+	{#if !outlineOnly}
+		<div class={`key ${cssClass}`} data-animate={animateIndex}>
+			<slot></slot>
+			{#each keyText as t}
+				<div class="key-text">{t}</div>
+			{/each}
+		</div>
+	{/if}
 </div>
