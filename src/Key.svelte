@@ -1,8 +1,9 @@
 <script>
 	export let cssClass = '';
-	export let outlineCssClass = '';
 	export let animateIndex = '';
 	export let keyText = [];
+	export let outlineCssClass = '';
+	export let outlineLocation = '';
 	export let outlineOnly=false;
 </script>
 
@@ -299,7 +300,7 @@
 }
 </style>
 
-<div class={`key-outline ${outlineCssClass}`}>
+<div class={`key-outline ${outlineCssClass}`} data-location={outlineLocation}>
 	{#if !outlineOnly}
 		<div class={`key ${cssClass}`} data-animate={animateIndex}>
 			<slot></slot>

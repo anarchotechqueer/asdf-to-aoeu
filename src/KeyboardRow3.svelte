@@ -28,10 +28,10 @@
 
     <Key outlineLocation={'r3-10'} animateIndex={6} keyText={['l']} />
 
-    <Key outlineLcation={'r3-11'} animateIndex={11} keyText={[':', ';']} />
+    <Key outlineLocation={'r3-11'} animateIndex={11} keyText={[':', ';']} />
 
-    <Key outlineLcation={'r3-11'} animateIndex={2} keyText={['"', "'"]} />
+    <Key outlineLocation={'r3-12'} animateIndex={2} keyText={['"', "'"]} />
 
-    <Key outlineLcation={'r3-12'} cssClass={'key--enter'} outlineCssClass={'key-outline--enter'} keyText={['enter', 'return']} />
+    <Key outlineLocation={'r3-13'} cssClass={'key--enter'} outlineCssClass={'key-outline--enter'} keyText={['enter', 'return']} />
   </KeyboardRowInner>
 </KeyboardRow>

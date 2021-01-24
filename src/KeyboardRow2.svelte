@@ -32,6 +32,6 @@
 
     <Key outlineLocation={'r2-13'} animateIndex={17} keyText={['}', ']']} />
 
-    <Key outlineLocation={'r2-13'} animateIndex={17} keyText={['|', '\\']} />
+    <Key outlineLocation={'r2-14'} animateIndex={17} keyText={['|', '\\']} />
   </KeyboardRowInner>
 </KeyboardRow>

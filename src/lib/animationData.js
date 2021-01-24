@@ -1,3 +1,5 @@
+export const transitionTime = 10;
+
 export const animationData = [{
   'key': '1',
   'loc': 'free-space-1'
@@ -27,7 +29,7 @@ export const animationData = [{
   'loc': 'free-space-1'
 }, {
   'key': '5',
-  'loc': 'r3-9'
+  'loc': 'r3-10'
 }, {
   'key': '7',
   'loc': 'free-space-2'
@@ -51,13 +53,13 @@ export const animationData = [{
   'loc': 'free-space-1'
 }, {
   'key': '9',
-  'loc': 'r3-2'
+  'loc': 'r3-3'
 }, {
   'key': '11',
   'loc': 'free-space-2'
 }, {
   'key': '10',
-  'loc': 'r3-10'
+  'loc': 'r3-11'
 }, {
   'key': '12',
   'loc': 'free-space-1'
@@ -78,7 +80,7 @@ export const animationData = [{
   'loc': 'r2-12'
 }, {
   'key': '15',
-  'loc': 'r3-11'
+  'loc': 'r3-12'
 }, {
   'key': '14',
   'loc': 'r1-12'
@@ -111,19 +113,19 @@ export const animationData = [{
   'loc': 'free-space-2'
 }, {
   'key': '20',
-  'loc': 'r3-3'
+  'loc': 'r3-4'
 }, {
   'key': '23',
   'loc': 'free-space-1'
 }, {
   'key': '22',
-  'loc': 'r3-6'
+  'loc': 'r3-7'
 }, {
   'key': '24',
   'loc': 'free-space-2'
 }, {
   'key': '23',
-  'loc': 'r3-7'
+  'loc': 'r3-8'
 }, {
   'key': '25',
   'loc': 'free-space-1'
@@ -141,7 +143,7 @@ export const animationData = [{
   'loc': 'free-space-1'
 }, {
   'key': '26',
-  'loc': 'r3-5'
+  'loc': 'r3-6'
 }, {
   'key': '27',
   'loc': 'free-space-1'
@@ -156,7 +158,7 @@ export const animationData = [{
   'loc': 'free-space-1'
 }, {
   'key': '28',
-  'loc': 'r3-4'
+  'loc': 'r3-5'
 }, {
   'key': '30',
   'loc': 'free-space-2'
@@ -174,7 +176,7 @@ export const animationData = [{
   'loc': 'free-space-2'
 }, {
   'key': '31',
-  'loc': 'r3-8'
+  'loc': 'r3-9'
 }, {
   'key': '33',
   'loc': 'r4-9'
