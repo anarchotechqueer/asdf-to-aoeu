@@ -9,27 +9,21 @@
 	import KeyboardRow4 from './KeyboardRow4.svelte';
 	import KeyboardRow5 from './KeyboardRow5.svelte';
 	import KeyboardRowFreeSpaces from './KeyboardRowFreeSpaces.svelte';
+	import Button from './Button.svelte';
 	import {animationData, transitionTime} from './lib/animationData.js';
 
 	const animateKey = (keyIndex = 0) => {
-		console.log('---------------------------------------------------------------------');
-		console.log(keyIndex);
 	  const {key, loc} = animationData[keyIndex];
 
 	  const keySelector = `[data-animate="${key}"]`;
 	  const locationSelector = `[data-location="${loc}"]`;
 
 	  const keyItem = document.querySelector(keySelector);
-		console.log(keyItem);
 	  const keyParent = keyItem.parentNode;
-		console.log(keyParent);
 	  const keyBounds = keyParent.getBoundingClientRect();
-		console.log(keyBounds);
 
 	  const location = document.querySelector(locationSelector);
-		console.log(location);;
 	  const locationBounds = location.getBoundingClientRect();
-		console.log(locationBounds);
 
 	  var xDiff = locationBounds.x - keyBounds.x;
 	  var yDiff = locationBounds.y - keyBounds.y;
@@ -62,9 +56,11 @@
 	  keyItem.classList.add('key--selected');
 	};
 
-</script>
+	const handleClick = () => {
+		animateKey();
+	}
 
-<svelte:window on:load="{()=>animateKey()}"/>
+</script>
 
 <style type="text/scss">
 
@@ -78,4 +74,5 @@
 	<KeyboardRow4 />
 	<KeyboardRow5 />
 	<KeyboardRowFreeSpaces />
+	<Button clickEvent={handleClick}/>
 </Keyboard>

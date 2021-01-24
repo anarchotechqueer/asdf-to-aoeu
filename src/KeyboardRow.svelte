@@ -1,5 +1,5 @@
 <script>
-	export let cssClass;
+	export let cssClass = '';
 </script>
 
 <style type="text/scss">
@@ -13,7 +13,7 @@
     margin-top: var(--gap-size);
   }
 
-  
+
 }
 </style>
 

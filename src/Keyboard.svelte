@@ -1,5 +1,4 @@
-
-<style style="text/scss">
+<style type="text/scss">
 .keyboard {
   padding: var(--gap-size);
   height: 100vh;

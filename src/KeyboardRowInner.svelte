@@ -1,5 +1,5 @@
 <script>
-	export let cssClass;
+	export let cssClass = '';
 </script>
 
 <style type="text/scss">
