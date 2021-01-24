@@ -20,14 +20,14 @@
 
     <Key outlineLocation={'r4-7'} animateIndex={5} keyText={['n']} />
 
-    <Key outLinelocation={''} keyText={['m']} />
+    <Key outlineLocation={'r4-8'} keyText={['m']} />
 
-    <Key outlineLocation={'r4-8'} animateIndex={19} keyText={['<', ',']} />
+    <Key outlineLocation={'r4-9'} animateIndex={19} keyText={['<', ',']} />
 
-    <Key outlineLocation={'r4-9'} animateIndex={21} keyText={['>', '.']} />
+    <Key outlineLocation={'r4-10'} animateIndex={21} keyText={['>', '.']} />
 
-    <Key outlineLocation={'r4-10'} animateIndex={13} keyText={['?', '/']} />
+    <Key outlineLocation={'r4-11'} animateIndex={13} keyText={['?', '/']} />
 
-    <Key outlineLocation={'r4-11'} outlineCssClass={'key-outline--shift key-outline--shift--right'} keyText={['shift']} />
+    <Key outlineLocation={'r4-12'} outlineCssClass={'key-outline--shift key-outline--shift--right'} keyText={['shift']} />
   </KeyboardRowInner>
 </KeyboardRow>

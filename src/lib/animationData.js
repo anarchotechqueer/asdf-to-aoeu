@@ -71,7 +71,7 @@ export const animationData = [{
   'loc': 'free-space-2'
 }, {
   'key': '12',
-  'loc': 'r4-10'
+  'loc': 'r4-11'
 }, {
   'key': '14',
   'loc': 'free-space-1'
@@ -101,7 +101,7 @@ export const animationData = [{
   'loc': 'r2-3'
 }, {
   'key': '18',
-  'loc': 'r4-8'
+  'loc': 'r4-9'
 }, {
   'key': '20',
   'loc': 'free-space-1'
@@ -179,7 +179,7 @@ export const animationData = [{
   'loc': 'r3-9'
 }, {
   'key': '33',
-  'loc': 'r4-9'
+  'loc': 'r4-10'
 }, {
   'key': '32',
   'loc': 'r4-5'
