@@ -1,0 +1,184 @@
+export const animationData = [{
+  'key': '1',
+  'loc': 'free-space-1'
+}, {
+  'key': '2',
+  'loc': 'r2-2'
+}, {
+  'key': '3',
+  'loc': 'free-space-2'
+}, {
+  'key': '1',
+  'loc': 'r4-3'
+}, {
+  'key': '4',
+  'loc': 'free-space-1'
+}, {
+  'key': '3',
+  'loc': 'r4-6'
+}, {
+  'key': '5',
+  'loc': 'free-space-2'
+}, {
+  'key': '4',
+  'loc': 'r4-7'
+}, {
+  'key': '6',
+  'loc': 'free-space-1'
+}, {
+  'key': '5',
+  'loc': 'r3-9'
+}, {
+  'key': '7',
+  'loc': 'free-space-2'
+}, {
+  'key': '6',
+  'loc': 'r2-11'
+}, {
+  'key': '8',
+  'loc': 'free-space-1'
+}, {
+  'key': '7',
+  'loc': 'r2-5'
+}, {
+  'key': '9',
+  'loc': 'free-space-2'
+}, {
+  'key': '8',
+  'loc': 'r2-10'
+}, {
+  'key': '10',
+  'loc': 'free-space-1'
+}, {
+  'key': '9',
+  'loc': 'r3-2'
+}, {
+  'key': '11',
+  'loc': 'free-space-2'
+}, {
+  'key': '10',
+  'loc': 'r3-10'
+}, {
+  'key': '12',
+  'loc': 'free-space-1'
+}, {
+  'key': '11',
+  'loc': 'r4-2'
+}, {
+  'key': '13',
+  'loc': 'free-space-2'
+}, {
+  'key': '12',
+  'loc': 'r4-10'
+}, {
+  'key': '14',
+  'loc': 'free-space-1'
+}, {
+  'key': '13',
+  'loc': 'r2-12'
+}, {
+  'key': '15',
+  'loc': 'r3-11'
+}, {
+  'key': '14',
+  'loc': 'r1-12'
+}, {
+  'key': '16',
+  'loc': 'free-space-1'
+}, {
+  'key': '17',
+  'loc': 'r1-13'
+}, {
+  'key': '16',
+  'loc': 'r2-13'
+}, {
+  'key': '18',
+  'loc': 'free-space-1'
+}, {
+  'key': '19',
+  'loc': 'r2-3'
+}, {
+  'key': '18',
+  'loc': 'r4-8'
+}, {
+  'key': '20',
+  'loc': 'free-space-1'
+}, {
+  'key': '21',
+  'loc': 'r2-4'
+}, {
+  'key': '22',
+  'loc': 'free-space-2'
+}, {
+  'key': '20',
+  'loc': 'r3-3'
+}, {
+  'key': '23',
+  'loc': 'free-space-1'
+}, {
+  'key': '22',
+  'loc': 'r3-6'
+}, {
+  'key': '24',
+  'loc': 'free-space-2'
+}, {
+  'key': '23',
+  'loc': 'r3-7'
+}, {
+  'key': '25',
+  'loc': 'free-space-1'
+}, {
+  'key': '24',
+  'loc': 'r4-4'
+}, {
+  'key': '26',
+  'loc': 'free-space-2'
+}, {
+  'key': '25',
+  'loc': 'r2-9'
+}, {
+  'key': '27',
+  'loc': 'free-space-1'
+}, {
+  'key': '26',
+  'loc': 'r3-5'
+}, {
+  'key': '27',
+  'loc': 'free-space-1'
+}, {
+  'key': '28',
+  'loc': 'free-space-2'
+}, {
+  'key': '27',
+  'loc': 'r2-8'
+}, {
+  'key': '29',
+  'loc': 'free-space-1'
+}, {
+  'key': '28',
+  'loc': 'r3-4'
+}, {
+  'key': '30',
+  'loc': 'free-space-2'
+}, {
+  'key': '29',
+  'loc': 'r2-7'
+}, {
+  'key': '31',
+  'loc': 'free-space-1'
+}, {
+  'key': '30',
+  'loc': 'r2-6'
+}, {
+  'key': '32',
+  'loc': 'free-space-2'
+}, {
+  'key': '31',
+  'loc': 'r3-8'
+}, {
+  'key': '33',
+  'loc': 'r4-9'
+}, {
+  'key': '32',
+  'loc': 'r4-5'
+}];
