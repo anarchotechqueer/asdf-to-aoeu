@@ -1,9 +1,9 @@
 <script>
   import KeyboardRow from './KeyboardRow.svelte';
   import KeyboardRowInner from './KeyboardRowInner.svelte';
-  import KeyOutline from './KeyOutline.svelte';
+  import KeyGroup from './KeyGroup.svelte';
   import Key from './Key.svelte';
-  import KeyText from './KeyText.svelte';
+
 </script>
 
 <KeyboardRow>
@@ -22,6 +22,13 @@
 
     <Key outlineCssClass={'key-outline--option key-outline--option--right'} keyText={['alt', 'option']} />
 
-    <!-- add arrow keys here -->
+    <Key outlineCssClass={'key-outline--arrow key-outline--arrow--horizontal'} cssClass={'key--arrow key--arrow--left'} />
+
+    <KeyGroup>
+      <Key outlineCssClass={'key-outline--arrow key-outline--arrow--top key-outline--gapless'} cssClass={'key--arrow key--arrow--up'} />
+      <Key outlineCssClass={'key-outline--arrow key-outline--arrow--bottom key-outline--gapless'} cssClass={'key--arrow key--arrow--down'} />
+    </KeyGroup>
+
+    <Key outlineCssClass={'key-outline--arrow key-outline--arrow--horizontal'} cssClass={'key--arrow key--arrow--right'} />
   </KeyboardRowInner>
 </KeyboardRow>

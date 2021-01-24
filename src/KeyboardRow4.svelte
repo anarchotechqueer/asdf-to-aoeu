@@ -1,9 +1,7 @@
 <script>
   import KeyboardRow from './KeyboardRow.svelte';
   import KeyboardRowInner from './KeyboardRowInner.svelte';
-
   import Key from './Key.svelte';
-  import KeyText from './KeyText.svelte';
 </script>
 
 <KeyboardRow>
